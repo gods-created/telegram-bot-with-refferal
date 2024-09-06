@@ -1,0 +1,9 @@
+aiogram
+asyncio
+alembic
+SQLAlchemy
+loguru
+celery
+flower
+redis
+mysql-connector-python

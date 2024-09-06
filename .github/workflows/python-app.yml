@@ -35,10 +35,10 @@ jobs:
         export REDIS_HOST=${{ secrets.REDIS_HOST }} |
         python -m unittest tests
       continue-on-error: true
-    - name: Rollback
-      if: ${{ steps.tests.outcome == 'failure' }}
-      run: |
-        git config --global user.name "B. Terskow"
-        git config --global user.email "tersk.bo@gmail"
-        git reset --hard HEAD~1
-        git push origin master --force
+   # - name: Rollback
+     # if: ${{ steps.tests.outcome == 'failure' }}
+     # run: |
+       # git config --global user.name "B. Terskow"
+       # git config --global user.email "tersk.bo@gmail"
+       # git reset --hard HEAD~1
+       # git push origin master --force

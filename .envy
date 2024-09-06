@@ -1,0 +1,3 @@
+BOT_TOKEN=7083724542:AAGzz32Tgh-suizDTpCv6mG8KkRIDFbhfpA
+DB_CONNECT_LINK=mysql+mysqlconnector://root:@localhost/mysql
+REDIS_HOST=redis://localhost:6379
